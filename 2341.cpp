@@ -6,7 +6,7 @@ int main()
 {
     using namespace std;
     string zdanie;
-    cout<<"proszê wpisaæ zdanie, które bêdzie wyœwietlone od koñca: "<<endl;
+    cout<<"input word that you want reversed: "<<endl;
     getline( cin,zdanie );
     int wiel=zdanie.length();		
 	cout<<wiel<<endl;
